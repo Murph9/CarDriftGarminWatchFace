@@ -21,13 +21,12 @@ class CarDriftAnimationController {
                 }
                 );
 
-            // Build the time overlay
+            // Build the text overlay
             _textLayer = buildTextLayer();
 
             view.addLayer(_animation);
             view.addLayer(_textLayer);
         }
-
     }
 
     function handleOnHide(view) {
@@ -36,33 +35,30 @@ class CarDriftAnimationController {
         _textLayer = null;
     }
 
-    // Function to initialize the time layer
+    // Function to initialize the text layer
     private function buildTextLayer() {
-        var info = System.getDeviceSettings();
+        var settings = System.getDeviceSettings();
         // Word aligning the width and height for better blits
-        var width = (info.screenWidth * .60).toNumber() & ~0x3;
-        var height = info.screenHeight * .25;
+        var width = settings.screenWidth.toNumber() & ~0x3;
 
         var options = {
-            :locX => ( (info.screenWidth - width) / 2 ).toNumber() & ~0x03,
-            :locY => (info.screenHeight - height),
+            :locX => 0,
+            :locY => 0,
             :width => width,
-            :height => height,
-            :visibility=>true
+            :height => settings.screenHeight,
+            :visibility=> true
         };
 
-        // Initialize the Time over the animation
-        var textLayer = new WatchUi.Layer(options);
-        return textLayer;
+        // Initialize the text overlay
+        return new WatchUi.Layer(options);
     }
 
     function getTextLayer() {
         return _textLayer;
     }
 
-
     function play() {
-        if(!_playing) {
+        if (!_playing) {
             delegate = new CarDriftAnimationDelegate();
             delegate.setController(self);
             _animation.play({:delegate => delegate});
@@ -79,10 +75,9 @@ class CarDriftAnimationController {
     }
 
     function stop() {
-        if(_playing) {
+        if (_playing) {
             _animation.stop();
             _playing = false;
         }
     }
-
 }

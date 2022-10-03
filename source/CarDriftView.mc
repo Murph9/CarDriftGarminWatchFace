@@ -27,7 +27,7 @@ class CarDriftView extends WatchUi.WatchFace {
         _animationDelegate.play();
     }
 
-        // Build up the time string
+    // Build up the time string
     private function getTimeString() {
         var clockTime = System.getClockTime();
         var info = System.getDeviceSettings();
@@ -44,8 +44,8 @@ class CarDriftView extends WatchUi.WatchFace {
         return Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
     }
 
-    // Function to render the time on the time layer
-    private function updateTimeLayer() {
+    // Function to render the text layer
+    private function updateTextLayer() {
         var dc = _animationDelegate.getTextLayer().getDc();
         var width = dc.getWidth();
         var height = dc.getHeight();
@@ -54,10 +54,13 @@ class CarDriftView extends WatchUi.WatchFace {
         var timeString = getTimeString();
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
         dc.clear();
+
         // Draw the time in the middle
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_MEDIUM, timeString,
+        dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_HOT, timeString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+
+        // dc.drawText(100, 100, Graphics.FONT_NUMBER_MILD, "999", Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
     // Update the view
@@ -65,8 +68,9 @@ class CarDriftView extends WatchUi.WatchFace {
         // Clear the screen buffer
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.clear();
-        // Update the contents of the time layer
-        updateTimeLayer();
+
+        // Update the contents of the text layer
+        updateTextLayer();
 
         return;
     }
