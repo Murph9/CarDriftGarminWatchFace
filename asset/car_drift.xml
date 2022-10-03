@@ -1,0 +1,3 @@
+<resources>
+    <animation filename="car_drift.mmm" id="carDrift"/>
+</resources>
