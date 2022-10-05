@@ -8,11 +8,16 @@ class CarDriftView extends WatchUi.WatchFace {
 
     var _animationDelegate = null;
     var _playing;
+    var _batteryImage;
+    var _heartImage;
 
     function initialize() {
         WatchFace.initialize();
 
         _animationDelegate = new CarDriftAnimationController();
+
+        _batteryImage = Application.loadResource(Rez.Drawables.battery) as BitmapResource;
+        _heartImage = Application.loadResource(Rez.Drawables.heart) as BitmapResource;
     }
 
     // Load your resources here
@@ -27,23 +32,6 @@ class CarDriftView extends WatchUi.WatchFace {
         _animationDelegate.play();
     }
 
-    // Build up the time string
-    private function getTimeString() {
-        var clockTime = System.getClockTime();
-        var info = System.getDeviceSettings();
-
-        var hour = clockTime.hour;
-
-        if( !info.is24Hour ) {
-            hour = clockTime.hour % 12;
-            if (hour == 0) {
-                hour = 12;
-            }
-        }
-
-        return Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
-    }
-
     // Function to render the text layer
     private function updateTextLayer() {
         var dc = _animationDelegate.getTextLayer().getDc();
@@ -51,16 +39,35 @@ class CarDriftView extends WatchUi.WatchFace {
         var height = dc.getHeight();
 
         // Clear the layer contents
-        var timeString = getTimeString();
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
         dc.clear();
 
         // Draw the time in the middle
+        var timeString = DataFetcher.getTimeString();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_HOT, timeString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
-        // dc.drawText(100, 100, Graphics.FONT_NUMBER_MILD, "999", Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        // Date above time
+        var dateString = DataFetcher.getDate();
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(width / 2, (height / 3f), Graphics.FONT_SMALL, dateString,
+            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+
+        var iconSize = 30/2;
+        // Battery Percentage on the sides
+        dc.drawBitmap((1.2f * width / 4) - iconSize, (height / 1.5f) - iconSize, _batteryImage);
+        var batteryString = DataFetcher.getBatteryPercentage();
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText((1.2f * width / 4) + iconSize, height / 1.5f, Graphics.FONT_TINY, batteryString,
+            Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+
+        // Draw the Heart Rate on the other side
+        dc.drawBitmap((2.8f * width / 4) - iconSize, (height / 1.5f) - iconSize, _heartImage);
+        var hrString = DataFetcher.getHeartRate();
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText((2.8f * width / 4) - iconSize, height / 1.5f, Graphics.FONT_TINY, hrString,
+            Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
     // Update the view
