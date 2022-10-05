@@ -1,4 +1,5 @@
 import Toybox.Activity;
+import Toybox.ActivityMonitor;
 import Toybox.Lang;
 import Toybox.Time;
 import Toybox.System;
@@ -30,6 +31,11 @@ class DataFetcher {
         return Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
     }
      
+    public static function getSteps() {
+        var info = ActivityMonitor.getInfo();
+        return info.steps.toString();
+    }
+
     public static function getHeartRate() {
         var activity = Activity.getActivityInfo();
         var heartrate = activity.currentHeartRate;
