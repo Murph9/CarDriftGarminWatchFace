@@ -14,7 +14,7 @@ class CarDriftView extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
 
-        // TODO smooth animation a lot (and maybe skid marks?)
+        // TODO maybe skid marks
         _animationDelegate = new CarDriftAnimationController();
 
         _batteryImage = Application.loadResource(Rez.Drawables.battery) as BitmapResource;
