@@ -4,7 +4,7 @@ import Toybox.WatchUi;
 
 class CarDriftApp extends Application.AppBase {
 
-    function initialize() {
+    public function initialize() {
         AppBase.initialize();
     }
 
@@ -25,7 +25,6 @@ class CarDriftApp extends Application.AppBase {
     function onSettingsChanged() as Void {
         WatchUi.requestUpdate();
     }
-
 }
 
 function getApp() as CarDriftApp {

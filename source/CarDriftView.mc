@@ -14,6 +14,7 @@ class CarDriftView extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
 
+        // TODO smooth animation a lot (and maybe skid marks?)
         _animationDelegate = new CarDriftAnimationController();
 
         _batteryImage = Application.loadResource(Rez.Drawables.battery) as BitmapResource;
@@ -50,7 +51,6 @@ class CarDriftView extends WatchUi.WatchFace {
 
         // Date above time
         var dateString = DataFetcher.getDate();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, (height / 3f), Graphics.FONT_SMALL, dateString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
@@ -58,23 +58,28 @@ class CarDriftView extends WatchUi.WatchFace {
         // Battery Percentage on the sides
         dc.drawBitmap((1.2f * width / 4) - iconSize, (height / 1.5f) - iconSize, _batteryImage);
         var batteryString = DataFetcher.getBatteryPercentage();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText((1.2f * width / 4) + iconSize, height / 1.5f, Graphics.FONT_TINY, batteryString,
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // Draw the Heart Rate on the other side
         dc.drawBitmap((2.8f * width / 4) - iconSize, (height / 1.5f) - iconSize, _heartImage);
         var hrString = DataFetcher.getHeartRate();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText((2.8f * width / 4) - iconSize, height / 1.5f, Graphics.FONT_TINY, hrString,
-            Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+        if (hrString != null) {
+            dc.drawText((2.8f * width / 4) - iconSize, height / 1.5f, Graphics.FONT_TINY, hrString,
+                Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
 
         // Steps below it all
         var stepsString = DataFetcher.getSteps();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, (height * .75f), Graphics.FONT_TINY, stepsString,
+        dc.drawText(width / 2, (height * .75f), Graphics.FONT_XTINY, stepsString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
+        // stress number right at the top
+        var latestStress = DataFetcher.getLatestStress();
+        if (latestStress != null) {
+            dc.drawText(width / 2, (height * .25f), Graphics.FONT_XTINY, latestStress,
+                Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
     }
 
     // Update the view

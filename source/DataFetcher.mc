@@ -2,6 +2,7 @@ import Toybox.Activity;
 import Toybox.ActivityMonitor;
 import Toybox.Lang;
 import Toybox.Time;
+import Toybox.SensorHistory;
 import Toybox.System;
 
 class DataFetcher {
@@ -40,7 +41,7 @@ class DataFetcher {
         var activity = Activity.getActivityInfo();
         var heartrate = activity.currentHeartRate;
         if (heartrate == null) {
-            return "-";
+            return null;
         }
         return heartrate.toNumber();
     }
@@ -51,5 +52,17 @@ class DataFetcher {
             return "nice";
         }
         return value.toNumber() + "%";
+    }
+
+    public static function getLatestStress() {
+        if (!(Toybox has :SensorHistory) || !(Toybox.SensorHistory has :getStressHistory)) {
+            return null;
+        }
+        var stressIterator = SensorHistory.getStressHistory({}); // already newest first
+        var sample = stressIterator.next();
+        if (sample == null) {
+            return null;
+        }
+        return sample.data.format("%d");
     }
 }
