@@ -10,6 +10,7 @@ class CarDriftView extends WatchUi.WatchFace {
     var _playing;
     var _batteryImage;
     var _heartImage;
+    var _footprintsImage;
 
     function initialize() {
         WatchFace.initialize();
@@ -19,6 +20,7 @@ class CarDriftView extends WatchUi.WatchFace {
 
         _batteryImage = Application.loadResource(Rez.Drawables.battery) as BitmapResource;
         _heartImage = Application.loadResource(Rez.Drawables.heart) as BitmapResource;
+        _footprintsImage = Application.loadResource(Rez.Drawables.footprints) as BitmapResource;
     }
 
     // Load your resources here
@@ -70,16 +72,10 @@ class CarDriftView extends WatchUi.WatchFace {
         }
 
         // Steps below it all
+        dc.drawBitmap((width / 2) - iconSize, (height * .82f) - iconSize, _footprintsImage);
         var stepsString = DataFetcher.getSteps();
         dc.drawText(width / 2, (height * .75f), Graphics.FONT_XTINY, stepsString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-
-        // stress number right at the top
-        var latestStress = DataFetcher.getLatestStress();
-        if (latestStress != null) {
-            dc.drawText(width / 2, (height * .25f), Graphics.FONT_XTINY, latestStress,
-                Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        }
     }
 
     // Update the view
