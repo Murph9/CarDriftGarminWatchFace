@@ -7,6 +7,11 @@ import Toybox.System;
 
 class DataFetcher {
 
+    public static function getDayOfWeek() {
+        var date = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        return date.day_of_week.toString();
+    }
+
     public static function getDate() {
         var date = Time.Gregorian.info(Time.now(),0);
         var day = date.day;

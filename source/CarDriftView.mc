@@ -56,6 +56,11 @@ class CarDriftView extends WatchUi.WatchFace {
         dc.drawText(width / 2, (height / 3f), Graphics.FONT_SMALL, dateString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
+        // Day of week above it
+        var dayOfWeekString = DataFetcher.getDayOfWeek();
+        dc.drawText(width / 2, (height / 3.9f), Graphics.FONT_XTINY, dayOfWeekString,
+            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+
         var iconSize = 30/2;
         // Battery Percentage on the sides
         dc.drawBitmap((1.2f * width / 4) - iconSize, (height / 1.5f) - iconSize, _batteryImage);
