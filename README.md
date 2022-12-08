@@ -2,8 +2,7 @@
 
 Animated GIF (that loops) for Garmin watches, packaged in a watchface.  
 
-<img src="preview/screen.png" width="50%">
-<!--TODO create a gif with the watch in it-->
+<img src="preview/carDrift.gif" width="50%">
 
 To install, just move the PRG file into GARMIN/GARMIN/APPS when plugging your watch into your computer.  
 (see darmin docs on how to generate the prg file, in vscode its `F1 -> Monkey C: Build for Device`)
@@ -17,3 +16,7 @@ API version 4.1.x, only for Venu 2 products right now.
 Original code pulled from https://github.com/rxkt/aqua_cat_watchface
 
 Monkey Motion is required to convert mp4/gif file formats for Garmin.
+
+---
+
+Once everything is installed VsCode should be able to run it on your computer with F5 (while focused on a .mc file)
