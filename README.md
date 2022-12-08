@@ -5,8 +5,8 @@ Animated GIF (that loops) for Garmin watches, packaged in a watchface.
 <img src="preview/screen.png" width="50%">
 <!--TODO create a gif with the watch in it-->
 
-To install, just move the generated PRG file into GARMIN/GARMIN/APPS when plugging your watch into your computer.  
-(see docs on how to generate the prg file)
+To install, just move the PRG file into GARMIN/GARMIN/APPS when plugging your watch into your computer.  
+(see darmin docs on how to generate the prg file, in vscode its `F1 -> Monkey C: Build for Device`)
 
 ---
 

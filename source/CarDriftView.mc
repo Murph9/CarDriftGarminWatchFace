@@ -86,7 +86,7 @@ class CarDriftView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Clear the screen buffer
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
 
         // Update the contents of the text layer

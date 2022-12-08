@@ -46,7 +46,7 @@ class DataFetcher {
         var activity = Activity.getActivityInfo();
         var heartrate = activity.currentHeartRate;
         if (heartrate == null) {
-            return null;
+            return "ded";
         }
         return heartrate.toNumber();
     }
