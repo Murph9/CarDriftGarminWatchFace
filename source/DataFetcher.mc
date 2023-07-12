@@ -13,21 +13,17 @@ class DataFetcher {
     }
 
     public static function getDate() {
-        var date = Time.Gregorian.info(Time.now(),0);
-        var day = date.day;
-        var month = date.month;
+        var date = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var month_str = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM).month;
-        return day.toString() + " " + month_str.toUpper().substring(0,3);
+        return date.day.toString() + " " + month_str.toUpper().substring(0,3);
     }
-
     
     public static function getTimeString() {
         var clockTime = System.getClockTime();
-        var info = System.getDeviceSettings();
 
         var hour = clockTime.hour;
 
-        if( !info.is24Hour ) {
+        if( !System.getDeviceSettings().is24Hour ) {
             hour = clockTime.hour % 12;
             if (hour == 0) {
                 hour = 12;

@@ -45,9 +45,11 @@ class CarDriftView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
         dc.clear();
 
+        
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+
         // Draw the time in the middle
         var timeString = DataFetcher.getTimeString();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_HOT, timeString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
@@ -81,6 +83,13 @@ class CarDriftView extends WatchUi.WatchFace {
         var stepsString = DataFetcher.getSteps();
         dc.drawText(width / 2, (height * .75f), Graphics.FONT_XTINY, stepsString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+
+        
+        // Attempt to overlay the same colour to match everything with the same colour
+        // dc.setBlendMode(Graphics.BLEND_MODE_MULTIPLY);
+        // dc.setFill(0x88FF0000);
+        // dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+        // dc.fillCircle(208, 208, 208);
     }
 
     // Update the view
