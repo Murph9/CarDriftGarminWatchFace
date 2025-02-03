@@ -17,7 +17,7 @@ class DataFetcher {
         var month_str = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM).month;
         return date.day.toString() + " " + month_str.toUpper().substring(0,3);
     }
-    
+
     public static function getTimeString() {
         var clockTime = System.getClockTime();
 
@@ -32,7 +32,7 @@ class DataFetcher {
 
         return Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
     }
-     
+
     public static function getSteps() {
         var info = ActivityMonitor.getInfo();
         return info.steps.toString();

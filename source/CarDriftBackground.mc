@@ -3,7 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class Background extends WatchUi.Drawable {
+class CarDriftBackground extends WatchUi.Drawable {
 
     function initialize() {
         var dictionary = {
@@ -18,5 +18,4 @@ class Background extends WatchUi.Drawable {
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
         dc.clear();
     }
-
 }
