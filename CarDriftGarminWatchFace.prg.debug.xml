@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\murph\projects\CarDriftGarminWatchFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="1" lineNum="5" parent="globals/CarDriftApp" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="2" lineNum="30" parent="globals" pc="268435469" symbol="getApp"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="2" lineNum="31" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="c:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\gen\\006-B3703-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="4" lineNum="6" parent="globals/CarDriftBackground" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="5" lineNum="7" parent="globals/CarDriftView" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="7" lineNum="25" parent="globals/CarDriftApp" pc="268435534" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="7" lineNum="26" parent="globals/CarDriftApp" pc="268435536" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="8" lineNum="20" parent="globals/CarDriftApp" pc="268435548" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="8" lineNum="21" parent="globals/CarDriftApp" pc="268435550" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="9" lineNum="7" parent="globals/CarDriftApp" pc="268435580" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftApp.mc" id="9" lineNum="8" parent="globals/CarDriftApp" pc="268435582" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="11" lineNum="50" parent="globals/DataFetcher" pc="268435595" symbol="getBatteryPercentage"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="11" lineNum="51" parent="globals/DataFetcher" pc="268435598" symbol="getBatteryPercentage"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="11" lineNum="52" parent="globals/DataFetcher" pc="268435615" symbol="getBatteryPercentage"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="11" lineNum="53" parent="globals/DataFetcher" pc="268435628" symbol="getBatteryPercentage"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="11" lineNum="55" parent="globals/DataFetcher" pc="268435634" symbol="getBatteryPercentage"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="12" lineNum="10" parent="globals/DataFetcher" pc="268435648" symbol="getDayOfWeek"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="12" lineNum="11" parent="globals/DataFetcher" pc="268435651" symbol="getDayOfWeek"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="12" lineNum="12" parent="globals/DataFetcher" pc="268435677" symbol="getDayOfWeek"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="58" parent="globals/DataFetcher" pc="268435690" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="59" parent="globals/DataFetcher" pc="268435693" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="60" parent="globals/DataFetcher" pc="268435730" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="62" parent="globals/DataFetcher" pc="268435732" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="63" parent="globals/DataFetcher" pc="268435748" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="64" parent="globals/DataFetcher" pc="268435757" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="65" parent="globals/DataFetcher" pc="268435763" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="13" lineNum="67" parent="globals/DataFetcher" pc="268435765" symbol="getLatestStress"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="14" lineNum="36" parent="globals/DataFetcher" pc="268435785" symbol="getSteps"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="14" lineNum="37" parent="globals/DataFetcher" pc="268435788" symbol="getSteps"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="14" lineNum="38" parent="globals/DataFetcher" pc="268435800" symbol="getSteps"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="15" lineNum="15" parent="globals/DataFetcher" pc="268435813" symbol="getDate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="15" lineNum="16" parent="globals/DataFetcher" pc="268435816" symbol="getDate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="15" lineNum="17" parent="globals/DataFetcher" pc="268435841" symbol="getDate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="15" lineNum="18" parent="globals/DataFetcher" pc="268435872" symbol="getDate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="21" parent="globals/DataFetcher" pc="268435910" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="22" parent="globals/DataFetcher" pc="268435913" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="24" parent="globals/DataFetcher" pc="268435925" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="26" parent="globals/DataFetcher" pc="268435933" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="27" parent="globals/DataFetcher" pc="268435952" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="28" parent="globals/DataFetcher" pc="268435963" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="29" parent="globals/DataFetcher" pc="268435970" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="17" lineNum="33" parent="globals/DataFetcher" pc="268435974" symbol="getTimeString"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="41" parent="globals/DataFetcher" pc="268436023" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="42" parent="globals/DataFetcher" pc="268436026" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="43" parent="globals/DataFetcher" pc="268436038" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="44" parent="globals/DataFetcher" pc="268436046" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="45" parent="globals/DataFetcher" pc="268436052" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\DataFetcher.mc" id="18" lineNum="47" parent="globals/DataFetcher" pc="268436058" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="19" lineNum="8" parent="globals/CarDriftBackground" pc="268436066" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="19" lineNum="9" parent="globals/CarDriftBackground" pc="268436069" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="19" lineNum="13" parent="globals/CarDriftBackground" pc="268436087" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="20" lineNum="16" parent="globals/CarDriftBackground" pc="268436104" symbol="draw"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="20" lineNum="18" parent="globals/CarDriftBackground" pc="268436106" symbol="draw"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftBackground.mc" id="20" lineNum="19" parent="globals/CarDriftBackground" pc="268436120" symbol="draw"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="14" parent="globals/CarDriftView" pc="268436129" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="15" parent="globals/CarDriftView" pc="268436131" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="18" parent="globals/CarDriftView" pc="268436143" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="20" parent="globals/CarDriftView" pc="268436181" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="21" parent="globals/CarDriftView" pc="268436219" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="25" lineNum="22" parent="globals/CarDriftView" pc="268436257" symbol="initialize"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="32" parent="globals/CarDriftView" pc="268436296" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="34" parent="globals/CarDriftView" pc="268436299" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="35" parent="globals/CarDriftView" pc="268436315" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="37" parent="globals/CarDriftView" pc="268436323" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="38" parent="globals/CarDriftView" pc="268436332" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="40" parent="globals/CarDriftView" pc="268436341" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="41" parent="globals/CarDriftView" pc="268436353" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="42" parent="globals/CarDriftView" pc="268436377" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="43" parent="globals/CarDriftView" pc="268436408" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="45" parent="globals/CarDriftView" pc="268436462" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="50" parent="globals/CarDriftView" pc="268436506" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="53" parent="globals/CarDriftView" pc="268436523" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="54" parent="globals/CarDriftView" pc="268436540" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="58" parent="globals/CarDriftView" pc="268436566" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="59" parent="globals/CarDriftView" pc="268436583" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="63" parent="globals/CarDriftView" pc="268436612" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="64" parent="globals/CarDriftView" pc="268436629" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="67" parent="globals/CarDriftView" pc="268436657" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="69" parent="globals/CarDriftView" pc="268436661" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="70" parent="globals/CarDriftView" pc="268436701" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="71" parent="globals/CarDriftView" pc="268436718" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="75" parent="globals/CarDriftView" pc="268436756" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="76" parent="globals/CarDriftView" pc="268436796" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="77" parent="globals/CarDriftView" pc="268436813" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="78" parent="globals/CarDriftView" pc="268436819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="83" parent="globals/CarDriftView" pc="268436857" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="84" parent="globals/CarDriftView" pc="268436891" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="85" parent="globals/CarDriftView" pc="268436908" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\source\\CarDriftView.mc" id="27" lineNum="88" parent="globals/CarDriftView" pc="268436936" symbol="onUpdate"/>
+        <entry filename="c:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\gen\\006-B3703-00\\source\\Rez.mcgen" id="28" lineNum="18" parent="globals/Rez/Layouts" pc="268436937" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\gen\\006-B3703-00\\source\\Rez.mcgen" id="28" lineNum="19" parent="globals/Rez/Layouts" pc="268436948" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\gen\\006-B3703-00\\source\\Rez.mcgen" id="28" lineNum="21" parent="globals/Rez/Layouts" pc="268436972" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\murph\\projects\\CarDriftGarminWatchFace\\gen\\006-B3703-00\\source\\Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268437073" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="19" symbol="&lt;globals/CarDriftView/&lt;&gt;_batteryImage&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" object="true" symbol="CarDriftApp"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="34" symbol="ColorRed"/>
+        <entry id="8" object="true" symbol="CarDriftBackground"/>
+        <entry field="true" id="20" symbol="&lt;globals/CarDriftView/&lt;&gt;_carImage&gt;"/>
+        <entry id="18" method="true" symbol="getTimeString"/>
+        <entry field="true" id="37" symbol="MilitaryFormatTitle"/>
+        <entry id="17" method="true" symbol="getSteps"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="31" symbol="ColorBlue"/>
+        <entry id="16" method="true" symbol="getLatestStress"/>
+        <entry field="true" id="28" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="8388724" symbol="battery"/>
+        <entry id="15" method="true" symbol="getHeartRate"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="9" object="true" symbol="CarDriftView"/>
+        <entry id="3" module="true" symbol="globals/Rez"/>
+        <entry id="2" module="true" symbol="globals/DataFetcher/&lt;statics&gt;"/>
+        <entry field="true" id="26" symbol="heart"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="32" symbol="ColorDarkGray"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="13" method="true" symbol="getDate"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="35" symbol="ColorWhite"/>
+        <entry field="true" id="30" symbol="ColorBlack"/>
+        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="14" method="true" symbol="getDayOfWeek"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8392233" symbol="transform"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="21" symbol="&lt;globals/CarDriftView/&lt;&gt;_footprintsImage&gt;"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="22" symbol="&lt;globals/CarDriftView/&lt;&gt;_heartImage&gt;"/>
+        <entry id="8391847" method="true" symbol="getStressHistory"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="29" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="25" symbol="footprints"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="33" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry field="true" id="36" symbol="ForegroundColorTitle"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry field="true" id="24" symbol="carDrift"/>
+        <entry id="10" object="true" symbol="DataFetcher"/>
+        <entry id="12" method="true" symbol="getBatteryPercentage"/>
+        <entry field="true" id="27" symbol="just_car"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268436102" name="dictionary" stackId="1" startPc="268436069"/>
+        <entry arg="true" endPc="268436128" name="dc" stackId="1" startPc="268436104"/>
+        <entry arg="true" endPc="268436936" name="dc" stackId="1" startPc="268436296"/>
+        <entry arg="true" endPc="268437087" name="dc" stackId="1" startPc="268436937"/>
+    </localVars>
+    <deviceInfo deviceVersion="d768f42b362bd6ce30dcbbc223d308fbb5a79106" partNumber="006-B3703-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="battery"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heart"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="just_car"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="carDrift"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="footprints"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/CarDriftApp" offset="152" parentId="globals" symbolId="CarDriftApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="232" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/DataFetcher" offset="285" parentId="globals" symbolId="DataFetcher" type="class"/>
+        <dataEntry label="globals/DataFetcher/&lt;statics&gt;" offset="333" parentId="DataFetcher" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/CarDriftBackground" offset="418" parentId="globals" symbolId="CarDriftBackground" type="class"/>
+        <dataEntry label="globals/CarDriftView" offset="471" parentId="globals" symbolId="CarDriftView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="605" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="685" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="720" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="CarDriftApp" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435489" name="getApp" startPc="268435469">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="DataFetcher">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/DataFetcher">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="CarDriftBackground" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="CarDriftView" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="CarDriftApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="onSettingsChanged" parent="CarDriftApp" startPc="268435534">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435579" name="getInitialView" parent="CarDriftApp" startPc="268435548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435594" name="initialize" parent="CarDriftApp" startPc="268435580">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="CarDriftApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435647" name="getBatteryPercentage" parent="DataFetcher" startPc="268435595">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435689" name="getDayOfWeek" parent="DataFetcher" startPc="268435648">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435784" name="getLatestStress" parent="DataFetcher" startPc="268435690">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435812" name="getSteps" parent="DataFetcher" startPc="268435785">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435909" name="getDate" parent="DataFetcher" startPc="268435813">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="DataFetcher">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436022" name="getTimeString" parent="DataFetcher" startPc="268435910">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436065" name="getHeartRate" parent="DataFetcher" startPc="268436023">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436103" name="initialize" parent="CarDriftBackground" startPc="268436066">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436128" name="draw" parent="CarDriftBackground" startPc="268436104">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="CarDriftView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="CarDriftView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="CarDriftView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="CarDriftView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436295" name="initialize" parent="CarDriftView" startPc="268436129">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="CarDriftView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436936" name="onUpdate" parent="CarDriftView" startPc="268436296">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437087" name="WatchFace" parent="Layouts" startPc="268436937">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

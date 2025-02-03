@@ -3,4 +3,5 @@
     <bitmap id="heart" filename="heart.png" />
     <bitmap id="battery" filename="battery.png" />
     <bitmap id="footprints" filename="footprints.png" />
+    <bitmap id="just_car" filename="just_car.png" packingFormat="png" />
 </drawables>
